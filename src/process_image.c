@@ -122,7 +122,7 @@ void hsv_to_rgb(image im)
             float v = get_pixel(im, i, j, 2);
             float c;
             if(h == 0)c = 0;
-            else c = h*360;
+            else c = h * 360;
             float m = v-c;
             float b = m;
             float g = c/v;
